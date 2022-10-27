@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="titulo">
+            <h1>IMC</h1>
+        </div>
+        <div class="entradaDados">
+            <label for="">Nome:<i>*</i></label>
+            <input id="nome" type="text" placeholder="Digite seu nome">
+        </div>
+        
+        <div class="entradaDados">
+            <label for="">Tamanho:<i>*</i></label>
+            <input id="tamanho" type="number" placeholder="Digite sua altura">
+        </div>
+        
+        <div class="entradaDados">
+            <label for="">Peso:<i>*</i></label>
+            <input id="peso" type="number" placeholder="Digite sua peso">
+        </div>
+
+        <div class="entradaDados">
+            <button onclick="enviar()">Enviar</button>
+        </div>
+
+        
+        
+
+        <div id="res">
+
+        </div>
+    </div>
+
+    <script src="imc.js"></script>
+</body>
+</html>

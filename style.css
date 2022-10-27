@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(92, 92, 92);
+}
+.titulo{
+    color: rgba(0, 255, 242, 0.699);
+    background-color: rgb(3, 12, 29);
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+i{
+    color: red;
+}
+label{
+    color: rgba(0, 255, 242, 0.699);
+}
+
+.card{
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 100px auto;
+    background-color: rgb(9, 34, 75);
+    width: 300px;
+    height: 570px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px 20px 1px black;
+}
+.entradaDados{
+    padding: 10px;
+}
+.entradaDados input{
+    padding: 15px;
+    width: 88%;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.entradaDados input::placeholder{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#res{
+    color: white;
+    height: 200px;
+    padding: 50px 30px;
+    background-color: rgb(3, 12, 29);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.entradaDados button{
+    color: rgba(255, 255, 255, 0.856);
+    padding: 12px;
+    border: none;
+    background-color: rgb(3, 12, 29);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
